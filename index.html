@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+
+
+<body>
+
+    <div class="main">
+        <div class="first">
+            <div class="text">
+                DOHORO
+            </div>
+        </div>
+
+        <div class="alert">
+            hello
+        </div>
+
+        <div class="second">
+            <div class="Login">
+                <h1>log in</h1>
+
+                <div class="username">
+                    <label>username</label>
+                    <input type="text">
+                </div>
+
+                <div class="password-field">
+                    <label>password</label>
+                    <input id="password" type="password">
+                </div>
+
+                <button id="second">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const second = document.getElementById('second');
+
+        const clickFuction = () => {
+            alert("hello")
+        }
+
+        second.addEventListener('click', clickFuction);
+    </script>
+
+</body>
+
+</html>
